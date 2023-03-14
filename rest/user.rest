@@ -1,0 +1,14 @@
+@host = localhost:8081
+// Register User
+POST http://{{host}}/api/user/register HTTP/1.1
+content-type: application/json
+    
+{
+    "name": "shadman sakib khan",
+    "username": "preom",
+    "email": "preom.ssk@go.com",
+    "password": "preom"
+}
+###crate user registration
+
+
